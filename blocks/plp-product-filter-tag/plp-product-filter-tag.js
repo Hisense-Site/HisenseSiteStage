@@ -320,7 +320,7 @@ export default function decorate(block) {
       const mobileFiltersSpan = document.createElement('span');
       mobileFiltersSpan.textContent = 'Filters';
       const mobileFiltersImg = document.createElement('img');
-      mobileFiltersImg.src = '/content/dam/hisense/image/icon/mobile-filters-title.svg';
+      mobileFiltersImg.src = '/content/dam/hisense/us/common-icons/mobile-filters-title.svg';
       mobileFiltersImg.alt = 'Filters title';
       mobileProdctTagTit.append(mobileFiltersImg, mobileFiltersSpan);
 
