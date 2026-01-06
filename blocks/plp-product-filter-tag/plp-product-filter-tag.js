@@ -327,7 +327,7 @@ export default function decorate(block) {
       const closeBtn = document.createElement('div');
       closeBtn.className = 'mobile-filter-close';
       const closeImg = document.createElement('img');
-      closeImg.src = './media_13b817dae786f9278b5ba58ce39c250a3c305d1d7.svg?width=750&format=svg&optimize=medium';
+      closeImg.src = '/content/dam/hisense/us/common-icons/close.svg';
       closeImg.alt = 'mobile-filter';
       closeBtn.addEventListener('click', () => {
         filterTagWrapperEl.classList.remove('mobile-filter-show');
