@@ -225,24 +225,25 @@ function buildDropdown(data) {
   dropdown.append(content);
   return dropdown;
 }
-function convertToDarkSvgUrl(url) {
-  if (url.indexOf('media_103e6c351d7632f9d1aa6d5846df24dd13b5df660') !== -1) {
-    return url.replace('media_103e6c351d7632f9d1aa6d5846df24dd13b5df660', 'media_1b07abf87c6eb9531442a0199bd2893ddb8b1244b');
-  }
-  if (url.indexOf('media_124969b71abd4f3be2869305b3210ba27a9621bb7') !== -1) {
-    return url.replace('media_124969b71abd4f3be2869305b3210ba27a9621bb7', 'media_152ebd74eb043f4b073908ae990437f464ba966a2');
-  }
-  if (url.indexOf('media_1bc02a8ed257ee0b6e75db327f697525ca4681e9c') !== -1) {
-    return url.replace('media_1bc02a8ed257ee0b6e75db327f697525ca4681e9c', 'media_1d67117bba695f4cd4248983772bdd968834d3be6');
-  }
 
-  const [mainPart, ...restParts] = url.split(/[?#]/);
-  const suffix = restParts.length > 0 ? `/${restParts.join('/')}` : '';
-
-  const darkMainPart = mainPart.replace(/\.svg$/, '-dark.svg');
-
-  return darkMainPart + suffix;
-}
+// function convertToDarkSvgUrl(url) {
+//   if (url.indexOf('media_103e6c351d7632f9d1aa6d5846df24dd13b5df660') !== -1) {
+//     return url.replace('media_103e6c351d7632f9d1aa6d5846df24dd13b5df660', 'media_1b07abf87c6eb9531442a0199bd2893ddb8b1244b');
+//   }
+//   if (url.indexOf('media_124969b71abd4f3be2869305b3210ba27a9621bb7') !== -1) {
+//     return url.replace('media_124969b71abd4f3be2869305b3210ba27a9621bb7', 'media_152ebd74eb043f4b073908ae990437f464ba966a2');
+//   }
+//   if (url.indexOf('media_1bc02a8ed257ee0b6e75db327f697525ca4681e9c') !== -1) {
+//     return url.replace('media_1bc02a8ed257ee0b6e75db327f697525ca4681e9c', 'media_1d67117bba695f4cd4248983772bdd968834d3be6');
+//   }
+//
+//   const [mainPart, ...restParts] = url.split(/[?#]/);
+//   const suffix = restParts.length > 0 ? `/${restParts.join('/')}` : '';
+//
+//   const darkMainPart = mainPart.replace(/\.svg$/, '-dark.svg');
+//
+//   return darkMainPart + suffix;
+// }
 
 /**
  * loads and decorates the header, mainly the nav
