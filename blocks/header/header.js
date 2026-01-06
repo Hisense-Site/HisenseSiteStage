@@ -376,7 +376,8 @@ export default async function decorate(block) {
       img.alt = action.title || 'action';
       btn.append(img);
       const imgDark = document.createElement('img');
-      imgDark.src = convertToDarkSvgUrl(action.img);
+      // imgDark.src = convertToDarkSvgUrl(action.img);
+      imgDark.src = '/content/dam/hisense/us/header/person-dark.svg';
       imgDark.alt = action.title || 'action';
       imgDark.className = 'dark-img';
       btn.append(imgDark);
