@@ -236,7 +236,7 @@ export default function decorate(block) {
   // label comes from configuration (sortBy)
   sortSpan.textContent = sortBy;
   const sortImg = document.createElement('img');
-  sortImg.src = './media_18b1fbb6305019af784f87587d3bfbc78f2ca3575.svg?width=750&format=svg&optimize=medium';
+  sortImg.src = '/content/dam/hisense/us/common-icons/chevron-up.svg';
   sortImg.alt = 'Sort options';
   sort.append(sortSpan, sortImg);
 

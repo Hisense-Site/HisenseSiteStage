@@ -229,7 +229,7 @@ export default function decorate(block) {
       const titleSpan = document.createElement('span');
       titleSpan.textContent = titleText;
       const arrow = document.createElement('img');
-      arrow.src = './media_18b1fbb6305019af784f87587d3bfbc78f2ca3575.svg?width=750&format=svg&optimize=medium';
+      arrow.src = '/content/dam/hisense/us/common-icons/chevron-up.svg';
       arrow.addEventListener('click', (e) => {
         const grandParent = e.target.parentNode?.parentNode;
         if (!grandParent) { return; }
