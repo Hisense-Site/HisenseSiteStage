@@ -1,4 +1,4 @@
-# FASTAB FROM development
+# FASTAB FROM MAIN
 mountpoints:
   /:
     url: "https://author-p174152-e1855674.adobeaemcloud.com/bin/franklin.delivery/Hisense-Site/HisenseSiteStage/main"
